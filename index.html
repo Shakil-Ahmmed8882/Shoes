@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike Shoes</title>
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!--  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>Man</a></li>
+              <li><a>Women</a></li>
+              <li><a>Kids</a></li>
+              <li><a>Sales</a></li>
+            </ul>
+          </div>
+          <a
+            class="btn btn-ghost normal-case text-2xl lg:text-4xl text-[#FB5014]"
+            >jump</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>Man</a></li>
+            <li><a>Women</a></li>
+            <li><a>Kids</a></li>
+            <li><a>Sales</a></li>
+          </ul>
+        </div>
+        <div
+          class="navbar-end ml-10 py-3 px-4 w-40 border-[3px] rounded-full border-purple-200 relative">
+          <input
+            class="p-1 pl-2 text-[13px] outline-none bg-transparent absolute left-2 border-none"
+            type="search"
+            placeholder="search" />
+          <i class="fa-solid absolute right-3 fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section
+        class="flex flex-col-reverse md:flex-row items-center pt-10 px-3 md:px-20">
+        <article class="space-y-2">
+          <h1 class="text-2xl md:text-6xl font-bold leading-10">
+            Nike <span class="text-[#17B4CC] font-bold">Air</span> <br />
+            Max
+          </h1>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+          <button class="btn bg-[#FB5014] text-white">Shop now</button>
+        </article>
+        <article>
+          <img class="w[70%] mx-auto" src="./pngwing 1.png" alt="" />
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
